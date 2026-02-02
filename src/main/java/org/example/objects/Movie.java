@@ -1,9 +1,11 @@
-package org.example;
+package org.example.objects;
 
 public class Movie {
     private int id;
     private String title;
     private String genre;
+
+    public Movie() {}
 
     public Movie(int id, String title, String genre) {
         this.id = id;

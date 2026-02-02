@@ -1,4 +1,7 @@
-package org.example;
+package org.example.dao;
+
+import org.example.DBConnection;
+import org.example.objects.Movie;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -8,7 +11,8 @@ public class MovieDAO {
 
     public static void insertMovie(Movie m) throws Exception {
         Connection conn = DBConnection.connect();
-        String sql = "INSERT INTO movie VALUES (?, ?, ?)";
+        String sql = "INSERT INTO movie (id, title, genre) VALUES (?, ?, ?)";
+
         PreparedStatement ps = conn.prepareStatement(sql);
         ps.setInt(1, m.getId());
         ps.setString(2, m.getTitle());

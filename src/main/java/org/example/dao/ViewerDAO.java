@@ -1,4 +1,7 @@
-package org.example;
+package org.example.dao;
+
+import org.example.DBConnection;
+import org.example.objects.Viewer;
 
 import java.sql.*;
 import java.util.ArrayList;

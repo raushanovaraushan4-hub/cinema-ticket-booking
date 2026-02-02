@@ -1,9 +1,11 @@
-package org.example;
+package org.example.objects;
 
 public class Viewer {
     private int id;
     private String name;
     private String email;
+
+    public Viewer() {}
 
     public Viewer(int id, String name, String email) {
         this.id = id;

@@ -1,4 +1,7 @@
-package org.example;
+package org.example.objects;
+
+import org.example.dao.MovieDAO;
+import org.example.dao.ViewerDAO;
 
 import java.util.List;
 
