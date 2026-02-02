@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            final ResourceConfig rc = new ResourceConfig().packages("org.example.api");
+            final ResourceConfig rc = new ResourceConfig().packages("me.assel.assignment.api");
 
             HttpServer server = GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
 
