@@ -1,4 +1,4 @@
-package org.example;
+package me.assel.assignment;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

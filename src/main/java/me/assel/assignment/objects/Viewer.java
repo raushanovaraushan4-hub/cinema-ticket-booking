@@ -1,4 +1,4 @@
-package org.example.objects;
+package me.assel.assignment.objects;
 
 public class Viewer {
     private int id;

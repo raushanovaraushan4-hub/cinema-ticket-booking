@@ -1,7 +1,7 @@
-package org.example.objects;
+package me.assel.assignment.objects;
 
-import org.example.dao.MovieDAO;
-import org.example.dao.ViewerDAO;
+import me.assel.assignment.dao.MovieDAO;
+import me.assel.assignment.dao.ViewerDAO;
 
 import java.util.List;
 

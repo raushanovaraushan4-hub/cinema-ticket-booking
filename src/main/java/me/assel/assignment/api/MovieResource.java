@@ -1,10 +1,10 @@
-package org.example.api;
+package me.assel.assignment.api;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.example.dao.MovieDAO;
-import org.example.objects.Movie;
+import me.assel.assignment.dao.MovieDAO;
+import me.assel.assignment.objects.Movie;
 
 import java.util.List;
 

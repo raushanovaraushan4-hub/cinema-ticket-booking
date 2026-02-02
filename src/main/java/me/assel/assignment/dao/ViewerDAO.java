@@ -1,7 +1,7 @@
-package org.example.dao;
+package me.assel.assignment.dao;
 
-import org.example.DBConnection;
-import org.example.objects.Viewer;
+import me.assel.assignment.DBConnection;
+import me.assel.assignment.objects.Viewer;
 
 import java.sql.*;
 import java.util.ArrayList;
